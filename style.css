@@ -32,6 +32,7 @@ li a:hover{
 	text-decoration: underline;
 }
 
+
 .left{
 	float: left;
 }
@@ -40,26 +41,53 @@ li a:hover{
 	float:right;
 }
 
-#logo{
-	display: block;
-	margin: auto;
-	width: 270px;
-	padding-top:200px;
+#signin{
+	background-color: #0091ff;
+	border: none;
+	tecolor: #000000;
+	padding: 5px 8px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 0.8em;
+	font-weight: bold;
+	border-radius: 2px;
 }
 
-.search{
-	width: 400px;
+#logo{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 250px;
+	padding-right:250px;
+	width: 270px;
+	padding-top:160px;
+	padding-bottom: 25px;
+}
+
+#searchbox{
+	display: block;
+	margin-top: 30px;
 	margin: auto;
+	width: 450px;
+	height: 38px;
+	box-shadow: 5px 5px 5px gray;
+
 }
 
 .searchbox{
-	width: 400px;
+	width: 450px;
+	height: 38px;
+
 }
 
-.buttons{
+#buttons{
 	width: 400px;
-	margin: auto;
-	padding: 0 40px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	padding-top: 25px;
+	padding-left: 450px;
+	padding-right: 450px;
 }
 
 .button{
@@ -68,9 +96,29 @@ li a:hover{
 	background-color: #f0f0f0;
 	border-radius: 2px;
 	border: 0;
-	margin: auto;
+	margin-left: auto;
+	margin-right: auto;
+	font-weight: bold;
+	color: #525252;
+
 }
 
+.subhead{
+	display: block;
+	font-family: "Arial";
+	font-size: 0.8em;
+	margin: auto;
+	padding-left: 325px;
+	padding-right: 325px;
+	text-align: center;
+}
+.subhead a{
+	text-decoration: none;
+	color: darkblue;
+}
+.subhead a:hover{
+	text-decoration: underline;
+}
 footer{
 	box-sizing: border-box;
 	width: 100%;
